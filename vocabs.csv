@@ -1,0 +1,6 @@
+Initiative,Description,ActeurLocal,PublicCible,Territoire,PratiqueNumerique,ImpactEnvironnemental,CO2 (kg),ConsommationEnergie (kWh)
+"Atelier réparation mobile","Atelier de réparation et réemploi de smartphones","Maison de quartier Flora Tristan","Jeunes","St-Denis","Réemploi du matériel","Réduction des déchets électroniques",1.2,3.5
+"Formation hygiène numérique","Sensibilisation à la protection des données et bonnes pratiques","MJC Bobigny","Parents","Bobigny","Usage raisonné des services en ligne","Réduction de l'empreinte énergétique liée au stockage cloud",0.8,2.1
+"Collecte solidaire de laptops","Collecte, remise en état et redistribution d'ordinateurs","Association Solidarité Numérique","Étudiants","Aubervilliers","Réemploi et upcycling","Allongement de durée de vie des appareils",2.4,4.0
+"Atelier éco-conception web","Formation à l'éco-conception de sites web","Université Paris 8","Étudiants","Saint-Denis","Éco-conception numérique","Réduction de la consommation serveur",1.1,3.0
+"Atelier sobriété numérique","Sensibilisation aux impacts énergétiques du numérique","Bibliothèque Elsa Triolet","Seniors","L'Île-Saint-Denis","Sobriété numérique","Réduction consommation énergétique",0.5,1.2
