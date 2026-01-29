@@ -21,7 +21,7 @@ gantt
 
     section Analyse et rédaction
     Analyse critique et discussion                 :done,    t10, 2025-03-25, 10d
-    Rédaction du rapport de veille                 :done,    t11, after t10, 10d
+    Rédaction du rapport de l'enquete                 :done,    t11, after t10, 10d
     Relecture, corrections et finalisation         :done,    t12, after t11, 5d
 
 ```
