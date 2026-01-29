@@ -1,33 +1,27 @@
 ```mermaid
 gantt
-    dateFormat  YYYY-MM-DD
-    title       Adding GANTT diagram functionality to mermaid
-    excludes    weekends
-    %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week ("sunday") or "weekends", but not the word "weekdays".)
+    title État d’avancement de l’enquête de veille – Numérique responsable en Seine-Saint-Denis
+    dateFormat YYYY-MM-DD
+    axisFormat %d/%m
 
-    section A section
-    Completed task            :done,    des1, 2014-01-06,2014-01-08
-    Active task               :active,  des2, 2014-01-09, 3d
-    Future task               :         des3, after des2, 5d
-    Future task2              :         des4, after des3, 5d
+    section Cadrage du projet
+    Définition du sujet et de la problématique      :done,    t1, 2025-01-05, 7d
+    Recherche exploratoire et cadrage théorique    :done,    t2, after t1, 10d
+    Délimitation du périmètre de veille            :done,    t3, after t2, 5d
 
-    section Critical tasks
-    Completed task in the critical line :crit, done, 2014-01-06,24h
-    Implement parser and jison          :crit, done, after des1, 2d
-    Create tests for parser             :crit, active, 3d
-    Future task in critical line        :crit, 5d
-    Create tests for renderer           :2d
-    Add to mermaid                      :until isadded
-    Functionality added                 :milestone, isadded, 2014-01-25, 0d
+    section Mise en place de la veille
+    Sélection des mots-clés                        :done,    t4, 2025-02-01, 5d
+    Paramétrage de l’outil Sindup                  :done,    t5, after t4, 3d
+    Ajustement des requêtes et filtres             :done,    t6, after t5, 7d
 
-    section Documentation
-    Describe gantt syntax               :active, a1, after des1, 3d
-    Add gantt diagram to demo page      :after a1  , 20h
-    Add another diagram to demo page    :doc1, after a1  , 48h
+    section Collecte et traitement des données
+    Collecte des sources                           :done,    t7, 2025-02-15, 30d
+    Tri et classification des documents            :done,    t8, after t7, 10d
+    Synthèse des résultats                         :done,    t9, after t8, 7d
 
-    section Last section
-    Describe gantt syntax               :after doc1, 3d
-    Add gantt diagram to demo page      :20h
-    Add another diagram to demo page    :48h
+    section Analyse et rédaction
+    Analyse critique et discussion                 :done,    t10, 2025-03-25, 10d
+    Rédaction du rapport de veille                 :done,    t11, after t10, 10d
+    Relecture, corrections et finalisation         :done,    t12, after t11, 5d
 
 ```
