@@ -1,27 +1,27 @@
 ```mermaid
 gantt
-    title État d’avancement de l’enquête de veille – Numérique responsable en Seine-Saint-Denis
+    title Enquête en cours – Sensibilisation au numérique responsable en Seine-Saint-Denis
     dateFormat YYYY-MM-DD
     axisFormat %d/%m
 
-    section Cadrage du projet
-    Définition du sujet et de la problématique      :done,    t1, 2025-01-05, 7d
-    Recherche exploratoire et cadrage théorique    :done,    t2, after t1, 10d
-    Délimitation du périmètre de veille            :done,    t3, after t2, 5d
+    section Phase préparatoire (appui sur la veille)
+    Exploitation du rapport de veille              :done,    t1, 2025-02-01, 7d
+    Sélection des acteurs et du terrain            :done,    t2, after t1, 5d
+    Affinement de la problématique                 :done,    t3, after t2, 5d
 
-    section Mise en place de la veille
-    Sélection des mots-clés                        :done,    t4, 2025-02-01, 5d
-    Paramétrage de l’outil Sindup                  :done,    t5, after t4, 3d
-    Ajustement des requêtes et filtres             :done,    t6, after t5, 7d
+    section Construction de l’enquête
+    Choix de la méthodologie                       :active,  t4, 2025-02-20, 5d
+    Élaboration des outils d’enquête               :active,  t5, after t4, 7d
+    Prise de contact avec les structures           :active,  t6, after t4, 7d
 
-    section Collecte et traitement des données
-    Collecte des sources                           :done,    t7, 2025-02-15, 30d
-    Tri et classification des documents            :done,    t8, after t7, 10d
-    Synthèse des résultats                         :done,    t9, after t8, 7d
+    section Enquête de terrain
+    Entretiens avec les acteurs associatifs        :         t7, 2025-03-01, 7d
+    Observations des actions de sensibilisation    :         t8, after t7, 7d
+    Retranscription et organisation des données    :         t9, after t8, 5d
 
     section Analyse et rédaction
-    Analyse critique et discussion                 :done,    t10, 2025-03-25, 10d
-    Rédaction du rapport de l'enquete                 :done,    t11, after t10, 10d
-    Relecture, corrections et finalisation         :done,    t12, after t11, 5d
+    Analyse des résultats                          :         t10, 2025-03-07, 4d
+    Rédaction de l’enquête                         :         t11, after t10, 4d
+    Relecture et finalisation                      :         t12, after t11, 2d
 
 ```
